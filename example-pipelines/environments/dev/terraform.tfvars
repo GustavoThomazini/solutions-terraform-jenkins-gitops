@@ -1,4 +1,4 @@
-project_id = "teste-cicd-nuveo"
+project_id = "PROJECT_ID"
 environment = "dev"
 subnet1_region = "us-central1"
 subnet1_zone = "us-central1-a"
