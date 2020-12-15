@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "teste-cicd-nuveo-tfstate"
     prefix = "env/prod"
   }
 }
