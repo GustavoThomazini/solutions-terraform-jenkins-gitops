@@ -16,7 +16,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "teste-cicd-nuveo-tfstate"
+    bucket = "PROJECT_ID-tfstate"
     prefix = "jenkins"
   }
 }
